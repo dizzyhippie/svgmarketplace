@@ -1,0 +1,192 @@
+.hidden{
+	display: none;
+}
+
+									/* WEBSITE CONTENT SECTION*/
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	letter-spacing: 0.5px;
+}
+
+h2{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.5px;
+}
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #F7F7F7;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#mainHeader{
+	display: flex;
+	flex-direction: row;
+}
+
+#logo_icon{
+	width: 30%;
+}
+
+#mainNav{
+	margin-top: 50px;
+}
+
+#mainNav ul li{
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 15px;
+	padding: 10px;
+	font-size: 24px;
+	display: inline-block;
+}
+
+#mainNav ul li:hover{
+	background-color: #C94747;
+	border-radius: 25px;
+}
+
+#about {
+
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+
+#aboutText{
+	text-align: center;
+	margin-top: 150px;
+}
+
+#hero{
+	width: 35%;
+}
+
+.descriptions{
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.5px;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+}
+
+										/* FOOTER COLLECTION ICON SECTION */
+
+#footer_collection{
+	margin-top: 50px;
+}
+
+.footer_icons{
+	margin: 0 auto;
+	display: flex;
+	width: 100%;
+}
+
+.footer_icons svg{
+	margin-left: 50px;
+}
+
+.phone-1:hover {
+	fill: #93BF55;
+}
+
+.plane-1:hover {
+	fill: #FFC32E;
+}
+
+.map-1:hover {
+	fill: #F4969D;
+}
+
+										/* PERSONAL BRANDING ICON SECTION */
+
+.personal_icons{
+	margin: 0 auto;
+	display: flex;
+	width: 100%;
+}
+
+.personal_icons svg{
+	margin-left: 50px;
+}
+
+.male-1:hover {
+	fill: #C94747;
+}
+
+.heart-1:hover {
+	fill: #F4969D;
+}
+
+.female-1:hover {
+	opacity: 0%;
+}
+
+										/* CREATIVITY ICON SECTION */
+
+.creativity_icons{
+	margin: 0 auto;
+	display: flex;
+	width: 100%;
+}
+
+.diamond-1:hover {
+	fill: #6EC0E4;
+	opacity: 100%;
+}
+
+.lightbulb-1:hover {
+	fill: #FFC32E;
+	opacity: 100%;
+}
+
+.brain-2:hover {
+	stroke: #F4969D;
+	stroke-width: 10px;
+}
+
+.camera-1:hover {
+	opacity: 50%;
+}
+
+.camera-2:hover {
+	opacity: 50%;
+}
+
+.camera-3:hover {
+	opacity: 50%;
+}
+
+										/* CONTAINER FOOTER SECTION */
+
+#footer{
+	background-color: #333;
+	display: flex;
+	flex-direction: row;
+	border-radius: 25px;
+	margin-bottom: 15px;
+}
+
+#footerPic{
+	width: 25%;
+	margin-left: 100px;
+}
+
+#footerPic:hover {
+	background-color: #F7F7F7;
+}
+
+#footerText{
+	color: #F7F7F7;
+	margin-top: 100px;
+	margin-left: 200px;
+}
